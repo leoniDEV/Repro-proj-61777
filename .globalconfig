@@ -1,0 +1,7 @@
+# Remove the line below if you want to inherit .editorconfig settings from higher directories
+is_global = true
+
+dotnet_analyzer_diagnostic.severity = error
+
+# SA1633: File should have header
+dotnet_diagnostic.SA1633.severity = none
